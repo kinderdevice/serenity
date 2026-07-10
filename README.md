@@ -1,2 +1,0 @@
-Serenity is a lightweight Forge mod for Minecraft 1.20.1 focused on improving the vanilla Overworld.
-It does not add new biomes, blocks or gameplay mechanics, instead it refines terrain generation, vegetation, caves and atmosphere to create a calmer, more comfortable world while preserving vanilla gameplay.

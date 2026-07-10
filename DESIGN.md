@@ -1,5 +1,0 @@
-- Vanilla first.
-- Player comfort before spectacle.
-- Small changes, big impact.
-- Preserve compatibility.
-- Never add features only because they look cool.
