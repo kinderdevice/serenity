@@ -5,6 +5,7 @@ import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import org.slf4j.Logger;
+import dev.kinderdevice.serenity.terrain.TerrainManager;
 
 @Mod(Serenity.MOD_ID)
 public final class Serenity {
@@ -14,8 +15,11 @@ public final class Serenity {
 
     public Serenity() {
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SerenityConfig.SPEC);
+    ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SerenityConfig.SPEC);
 
-        LOGGER.info("Initializing Serenity...");
+    TerrainManager.initialize();
+
+    LOGGER.info("Initializing Serenity...");
+
     }
 }
